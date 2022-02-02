@@ -54,15 +54,15 @@ Context.customMDToast(
 Add jitpack maven link in your root build.gradle ( or settings.gradle base on your gradle version ) at the end of repositories:
 ```
 repositories {
-        ...
-        maven { url 'https://jitpack.io' }
-    }
+     ...
+     maven { url 'https://jitpack.io' }
+}
 ```
 Add the dependency
 ```
 dependencies {
-      ...
-	  implementation 'com.github.mortezaom:MDToast:1.0.0'
+     ...
+     implementation 'com.github.mortezaom:MDToast:1.0.0'
 }
 ```
 Now you can use MDToast and extensions in your project.
@@ -81,21 +81,21 @@ MDToast.makeText(this, message, MDToast.LENGTH_SHORT, MDToast.TYPE_INFO).show()
 You can also create a fully customized Toast:
 ```
 MDToast.makeText(
-            Context context,
-            String message,
-            int duration = LENGTH_SHORT,
-            int type = TYPE_INFO,
-            int bgColor = null,
-            Drawable tIcon = null,
-            int borderRadius = null,
-            int elevation = null,
-            Typeface typeface = null
-    ).show()
+     Context context,
+     String message,
+     int duration = LENGTH_SHORT,      
+     int type = TYPE_INFO,
+     int bgColor = null,
+     Drawable tIcon = null,
+     int borderRadius = null,
+     int elevation = null,
+     Typeface typeface = null
+).show()
 ```
 You can enter your custom values instead of each parameters or send null to them, also you can use setters method to change the values for each items.
 
 
-###Contributing
+### Contributing
 If you can add new things, You are welcome ! you can have pull requests :)
 Or if there is any question or error you can open a new issue.
 I will happy to see more **stars** if you like this :)
@@ -103,4 +103,4 @@ I will happy to see more **stars** if you like this :)
 ### Contributors
 MortezaOM - mortezamohammady56@gmail.com
 
-###The End :)
+### The End :)
