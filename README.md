@@ -1,6 +1,6 @@
 # MDToast - MaterialDesign Toast
 
-![](https://img.shields.io/github/stars/mortezaom/MDToast.svg) ![](https://img.shields.io/github/release/mortezaom/MDToast.svg)
+![](https://img.shields.io/github/stars/mortezaom/MDToast.svg) ![](https://img.shields.io/github/v/release/mortezaom/MDToast)
 
 A lightweight Toast library written with Kotlin inspired by [MDToast](https://github.com/valdesekamdem/MaterialDesign-Toast "MDToast") with Easy to use extensions for Kotlin developers and fully accessable for Java Developers. If you don't know how to use extension methods, first search about it :)
 
